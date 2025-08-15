@@ -3,7 +3,7 @@
 **#Problem Statement:**
 The Head of Metals Trading at a commodities firm is exploring a Python-based pricing model to capture arbitrage opportunities in Zinc between the London Metal Exchange (LME) and MCX, incorporating real-world carry and logistics costs. Zinc can be purchased from Nyrstar Europe for delivery to an LME warehouse in Europe, or shipped directly from Europe to India for delivery into MCX. Dislocations occur when MCX near-month prices, converted into USD/tonne, diverge from LME 3M prices by more than the full landed cost differential between the two delivery routes.
 The model will integrate market prices, USD/INR exchange rates, and cost inputs including storage, financing, insurance, customs duties, and freight rates from leading vessel logistics providers. It will provide descriptive analytics to monitor gross and net spreads over time, predictive forecasts of net spreads for both LME and MCX delivery scenarios. The decision-maker is the Head of Metals Trading, who will use this tool to determine optimal routing, timing, and execution of physical and paper trades to maximize arbitrage capture.
-**
+
 **#Stakeholder & User:**
 Primary stakeholder: Head of Metals Trading at the commodity trading firm.
 End users: Physical metals traders, freight & logistics managers, execution analysts in the trading desk.
